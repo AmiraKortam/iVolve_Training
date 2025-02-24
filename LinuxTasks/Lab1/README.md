@@ -3,6 +3,7 @@ create a new user and a new group, add the user to the group and enable the user
 
 Solution:
 1. Create new group
+   
    ![1](https://github.com/user-attachments/assets/41f4bc66-25db-40c4-bcad-43b4c937f912)
 2. Create new user and add it to the group
    ![2](https://github.com/user-attachments/assets/25a71045-b735-481a-9fb9-15275b5688ef)
