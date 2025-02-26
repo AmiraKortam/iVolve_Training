@@ -13,17 +13,15 @@ sudo apt install ansible -y
 2. make sure that VM1 has ssh installed and enabled
 use this commands to install it:   
 sudo apt install openssh-server -y
-![image](https://github.com/user-attachments/assets/1c74d2f5-0230-45cf-8cdf-99624d416f90)
 
 3. get VM2 ip
-
-![image](https://github.com/user-attachments/assets/be22e39b-2bd7-47a4-bb0c-1480624cfa4e)
-
+use this commands to get it: hostname -I   
 
 4. ssh from VM1 to VM2
 
-![image](https://github.com/user-attachments/assets/bd82a6ac-d41b-4155-aa46-24cd78d913e9)
+![ssh_conn](https://github.com/user-attachments/assets/364c6186-c1ce-492d-85dd-a5b84f321ad7)
 
 5. Test using any command
 
-    
+![adhoc](https://github.com/user-attachments/assets/abb8d0ad-269d-4bb4-bff6-b948cad9bb7d)
+
