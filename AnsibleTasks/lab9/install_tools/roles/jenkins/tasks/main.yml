@@ -1,0 +1,36 @@
+---
+- name: Update APT cache
+  apt:
+    update_cache: yes
+
+- name: Install OpenJDK 17 (Required for Jenkins)
+  apt:
+    name: openjdk-17-jdk
+    state: present
+
+- name: Download and add Jenkins repository key
+  get_url:
+    url: https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
+    dest: /usr/share/keyrings/jenkins-keyring.asc
+    mode: '0644'
+
+- name: Ensure Jenkins repository is configured correctly
+  copy:
+    dest: "/etc/apt/sources.list.d/jenkins.list"
+    content: "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] https://pkg.jenkins.io/debian-stable binary/\n"
+    mode: '0644'
+
+- name: Update APT cache after adding Jenkins repo
+  apt:
+    update_cache: yes
+
+- name: Install Jenkins
+  apt:
+    name: jenkins
+    state: present
+
+- name: Start and enable Jenkins service
+  systemd:
+    name: jenkins
+    enabled: yes
+    state: started
