@@ -1,0 +1,16 @@
+---
+- name: Test Ansible Dynamic inventory
+  hosts: all
+  remote_user: ubuntu
+  become: true
+  tasks:
+    - name: Install Nginx
+      apt:
+        name: nginx
+        state: present
+
+    - name: Start and enable Nginx service
+      systemd:
+        name: nginx
+        state: started
+        enabled: true
