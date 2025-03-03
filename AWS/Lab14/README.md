@@ -46,6 +46,11 @@ i create a test folder with one file to test downloading from bucket
 ![versioningconsole](https://github.com/user-attachments/assets/e49ab3eb-ded6-4a54-af2c-a467fe803c8c)
 
 
+8. Enable Logging
+
+![log-bucket](https://github.com/user-attachments/assets/d1d8767c-0701-4fdb-9e5d-3e8dd72c8c15)
+
+![logging](https://github.com/user-attachments/assets/a4dfdef9-8a6d-4b51-baa1-e6b99dc606a4)
 
 
 
