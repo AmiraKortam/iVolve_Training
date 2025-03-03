@@ -18,13 +18,20 @@ Solution:
 ![bucket](https://github.com/user-attachments/assets/00f9cf28-45b7-4472-a6fc-a8a6dc450125)
 
 
-4. Upload file to bucket
+4. Set bucket policy
+
+![policy-cmd](https://github.com/user-attachments/assets/3f6ab989-c2ed-406b-99f2-55efacd17633)
+and the policy content file is uploaded 
+
+![policy-console](https://github.com/user-attachments/assets/a7be8f92-f177-427c-ae06-ad30841fb493)
+
+5.  Upload file to bucket
 
 ![uploadfile](https://github.com/user-attachments/assets/78f11580-98db-44bd-bbe9-a6ab61e93713)
 ![object1](https://github.com/user-attachments/assets/99842a75-5bb1-47f1-ae8f-0b822d0ec24c)
 
 
-5. Download folder/file from bucket
+6. Download folder/file from bucket
 
 i create a test folder with one file to test downloading from bucket
 ![testFolder](https://github.com/user-attachments/assets/49d9a09a-901e-48dd-9e31-53b1006d5eac)
@@ -33,7 +40,7 @@ i create a test folder with one file to test downloading from bucket
 ![downloadcmd](https://github.com/user-attachments/assets/4c1f3b4f-7c44-490a-844a-de46aa4d0324)
 
 
-6. Enable versioning
+7. Enable versioning
 
 ![versioning](https://github.com/user-attachments/assets/772ad20e-8bf9-4b22-b3c7-25299c82f5c4)
 ![versioningconsole](https://github.com/user-attachments/assets/e49ab3eb-ded6-4a54-af2c-a467fe803c8c)
