@@ -12,6 +12,9 @@ Solution:
 1. Run 'terraform init'
 
 ![backend](https://github.com/user-attachments/assets/0e775e42-8a58-46d7-a752-b8552ae62974)
+Make sure the statefile iis stored in the s3 bucket
+![image](https://github.com/user-attachments/assets/cd57ff57-0125-4b55-a8d9-358abfc4e7d8)
+
 
 2. Run 'terraform apply'
 ![apply](https://github.com/user-attachments/assets/bb267591-7594-4f63-99c9-8349a6b02d37)
