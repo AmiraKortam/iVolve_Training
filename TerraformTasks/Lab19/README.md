@@ -4,6 +4,8 @@ Lab 19: Terraform Modules
 1. The Network module will include 2 public subnets, route tables, and an internet gateway.
 2. The Server module will create a single EC2 instance with Nginx installed, a security group, and key pair.
 Use the Server module twice to create EC2 instance in each subnet.
+
+
 ![WhatsApp Image 2025-03-06 at 22 07 45_a605eb02](https://github.com/user-attachments/assets/8c930e78-f687-4dbc-bed3-000ffca4b5ae)
 
 
